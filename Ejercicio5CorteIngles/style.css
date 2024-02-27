@@ -1,0 +1,164 @@
+body{
+    box-sizing: border-box;
+    font-family: roboto;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+.b-header{
+    width: 100%;
+    height: 50px;
+}
+.b-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.b-info__ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.b-info__logo{
+    width: 25%;
+}
+.b-info__li-tf{
+    font-size: 50px;
+}
+.b-info__span{
+    display: inline;
+    padding-left: 15px;
+}
+.b-navbar{
+    width: 100%;
+    background-color: aquamarine;
+    text-transform: capitalize;
+    display: flex;
+}
+.b-navbar__ul{
+    list-style: none;
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+}
+.b-options {
+    background-color: rgb(24, 222, 24);
+    color: white;
+    size-adjust: 12px;
+    border-radius: 0px;
+    padding: 10px 5px;
+}
+.b-shop {
+
+    background-color: rgb(255, 255, 180);
+    /* border-top: 1px solid #000; */
+    padding-top: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 80%;
+}
+
+.marg{
+    margin-top: 80px;
+}
+
+.b-shop__box {
+
+    background-color: rgb(255, 255, 255);
+    /* Color de fondo */
+    /* border-right: 1px solid #000;
+    border-left: 1px solid #000; */
+    /* padding: 20px; /* Relleno interno de la caja */
+    margin-top: 0px;
+    display: flex;
+    /* Usa flexbox */
+    justify-content: center;
+    /* Alinea horizontalmente al centro */
+    align-items: center;
+    /* Alinea verticalmente al centro */
+    width: 80%;
+    /* Ancho al 100% del contenedor */
+    height: 80%;
+    /* Margen alrededor de la caja */
+    flex-wrap: wrap !important;
+}
+
+.b-shop__options {
+    width: 40%;
+    /* Ancho de la caja */
+    height: 494px;
+    /* Altura de la caja */
+    background-color: #f0f0f0;
+    /* Color de fondo */
+    /* border: 2px solid #000; */
+    padding: 0px;
+    /* Relleno interno de la caja */
+    margin: 20px;
+    /* Margen alrededor de la caja */
+
+}
+
+.pic {
+    overflow: hidden;
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 15px;
+    background-color: white;
+    text-transform: uppercase;
+    /* border-color: darkgreen; */
+    color: rgb(0, 7, 0);
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+.b-shop__options-cost {
+    font-size: 20px;
+    color: rgb(0, 11, 0);
+}
+
+.b-shop__options-price {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.b-flex {
+    display: flex;
+    align-items: center;
+}
+
+.b-flex__center {
+    align-items: center;
+}
+
+.b-flex__l {
+    justify-content: flex-end;
+}
+
+.b-flex__column {
+    flex-direction: column;
+}
